@@ -1,12 +1,12 @@
 import { Background } from "@/components/background.tsx";
-import { AnimatedBackground } from "@/components/animated-background.tsx";
+import { Hero } from "@/components/hero/hero.tsx";
 
 function Portfolio() {
 
   return (
     <>
       <Background />
-      <AnimatedBackground />
+      <Hero />
     </>
   )
 }
