@@ -20,6 +20,17 @@ export const SkillsData: SkillsData = {
                 Technology.TAILWIND,
                 Technology.REACT
             ]
+        },
+        {
+            title: "Backend Development",
+            technologies: [
+                Technology.NODEJS,
+                Technology.TYPESCRIPT,
+                Technology.EXPRESS,
+                Technology.POSTGRESQL,
+                Technology.PRISMA,
+                Technology.PYTHON
+            ]
         }
     ]
 }

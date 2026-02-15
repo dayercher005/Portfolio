@@ -17,7 +17,7 @@ export const EducationData: EducationListData = {
         {
             school: "Nanyang Technological University (NTU)",
             course: "Bachelor of Computing (Hons) in Computer Science",
-            startDate: "Jul 2026",
+            startDate: "July 2026",
             endDate: "Present",
             status: true
         }
