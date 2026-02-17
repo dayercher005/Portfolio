@@ -10,25 +10,25 @@ export const Education: FC = () => {
     } = EducationData
 
     return(
-        <div className="max-w-2xl mx-auto mt-25 mb-15">
-            <h1 className="text-2xl md:text-4xl font-bold">{title}</h1>
+        <div className="md:max-w-2xl max-w-md max-sm:w-xs mx-auto mt-25 mb-15">
+            <h1 className="text-2xl md:text-4xl max-md:text-center font-bold ">{title}</h1>
 
             <div
-                className="py-10"
+                className="py-10 mx-1.5"
             >
                 {educations.map((education, index) => 
                     <div
                         key={index}
-                        className="flex items-center justify-between"
+                        className="md:flex items-center justify-between"
                     >
                         <img 
                             src={education.icon}
-                            className="w-45 h-16"
+                            className="w-45 h-16 max-md:mx-auto"
                         />
 
-                        <div>
+                        <div className="text-center">
                             <p
-                                className="font-medium text-md max-w-75 mb-1"
+                                className="font-medium text-md md:max-w-75 max-md:mx-auto my-1.5"
                             >
                                 {education.course}
                             </p>

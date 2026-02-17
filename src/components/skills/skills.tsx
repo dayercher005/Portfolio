@@ -13,8 +13,8 @@ export const Skills: FC = () => {
     } = SkillsData;
 
     return (
-        <div className="max-w-2xl mx-auto mt-25">
-            <h1 className="text-2xl md:text-4xl font-bold">{title}</h1>
+        <div className="md:max-w-2xl min-h-80 max-w-md mx-auto my-25">
+            <h1 className="text-2xl md:text-4xl max-md:text-center font-bold">{title}</h1>
             <SkillsNavbar
                 sections={sections}
                 setSectionIndex={setSectionIndex}
