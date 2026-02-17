@@ -7,6 +7,8 @@ import React from '@/assets/react.svg';
 import Tailwind from '@/assets/tailwind.svg';
 import Typescript from '@/assets/typescript.svg';
 import NTU from '@/assets/ntu.webp';
+import Linkedin from '@/assets/linkedin.svg';
+import Github from '@/assets/github.svg';
 
 export const Icons = {
     EXPRESS: Express,
@@ -17,7 +19,9 @@ export const Icons = {
     REACT: React,
     TAILWIND: Tailwind,
     TYPESCRIPT: Typescript,
-    NTU: NTU
+    NTU: NTU,
+    LINKEDIN: Linkedin,
+    GITHUB: Github
 } as const
 
 export type IconTypes = typeof Icons[keyof typeof Icons]
