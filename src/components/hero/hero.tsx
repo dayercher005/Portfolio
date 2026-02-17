@@ -13,15 +13,15 @@ export const Hero: FC = () => {
 
     return(
         <div>
-            <div className="max-w-3xl mx-auto md:flex justify-between items-center mt-20">
+            <div className="max-w-2xl mx-auto md:flex justify-between items-center mt-20">
                 <h1 className="text-2xl md:text-4xl font-bold">{firstName} {lastName}</h1>
                 <FlipUp 
-                    className="text-2xl md:text-3xl font-semibold text-indigo-400"
+                    className="text-xl md:text-2xl font-semibold text-indigo-400"
                     words={professions}
                 />
             </div>
 
-            <div className="mt-5 mx-auto max-w-3xl">
+            <div className="mt-7 mx-auto max-w-2xl">
                 {description.map((text, index) =>
                     <p
                      className="font-medium text-md py-2"
