@@ -1,7 +1,8 @@
 import { type FC, useState } from 'react';
 import { SkillsData } from '@/data/skills.ts';
-import { SkillsCard } from '@/components/skills/card.tsx'
+import { SkillsCardSection } from '@/components/skills/cardSection'
 import { SkillsNavbar } from '@/components/skills/navbar.tsx';
+import { RiseUp } from '@/components/animations/riseUp.tsx';
 
 export const Skills: FC = () => {
 
@@ -12,15 +13,20 @@ export const Skills: FC = () => {
         sections
     } = SkillsData;
 
+    const initialDelay = 150;
+
     return (
         <div className="md:max-w-2xl min-h-80 max-w-md mx-auto my-25">
             <h1 className="text-2xl md:text-4xl max-md:text-center font-bold">{title}</h1>
-            <SkillsNavbar
-                sections={sections}
-                setSectionIndex={setSectionIndex}
-            />
-            <SkillsCard
+            <RiseUp>
+                <SkillsNavbar
+                    sections={sections}
+                    setSectionIndex={setSectionIndex}
+                />
+            </RiseUp>
+            <SkillsCardSection
                 selectedSection={sections[sectionIndex]}
+                initialDelay={initialDelay}
             />
         </div>
     )

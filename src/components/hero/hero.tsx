@@ -1,6 +1,7 @@
 import type { FC } from 'react';
 import { HeroData } from '@/data/hero.ts';
 import FlipUp from "@/components/animations/flipUp.tsx";
+import { RiseUp } from '@/components/animations/riseUp.tsx';
 
 export const Hero: FC = () => {
 
@@ -11,24 +12,34 @@ export const Hero: FC = () => {
         professions
     } = HeroData;
 
+    const delay = 200
+
     return(
         <div>
             <div className="md:max-w-2xl text-center max-w-md mx-auto md:flex justify-between items-center mt-20">
                 <h1 className="text-2xl md:text-4xl font-bold max-md:text-center">{firstName} {lastName}</h1>
-                <FlipUp 
-                    className="text-xl md:text-2xl font-semibold text-indigo-400"
-                    words={professions}
-                />
+                <RiseUp
+                    delay={delay}
+                >
+                    <FlipUp 
+                        className="text-xl md:text-2xl font-semibold text-indigo-400"
+                        words={professions}
+                    />
+                </RiseUp>
             </div>
 
-            <div className="mt-7 px-2 mx-auto md:max-w-2xl max-w-md">
-                {description.map((text, index) =>
-                    <p
-                     className="font-medium text-md py-2"
-                     key={index}
-                    >{text}</p> 
-                )}
-            </div>
+            <RiseUp
+                delay={delay * 2}
+            >
+                <div className="mt-7 px-2 mx-auto md:max-w-2xl max-w-md">
+                    {description.map((text, index) =>
+                        <p
+                        className="font-medium text-md py-2"
+                        key={index}
+                        >{text}</p> 
+                    )}
+                </div>
+            </RiseUp>
             
         </div>
     )
