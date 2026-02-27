@@ -91,7 +91,7 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-midnight: #0F0F0F;
-  --color-skillCard: #3D3D3D;
+  --color-skillCard: linear-gradient(345deg,_hsla(0,_40%,_100%,_.05),_hsla(0,_0%,_100%,_.1));
 }
 
 .dark {
