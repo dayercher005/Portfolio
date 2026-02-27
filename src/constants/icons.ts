@@ -9,8 +9,10 @@ import Typescript from '@/assets/typescript.svg';
 import NTU from '@/assets/ntu.webp';
 import Linkedin from '@/assets/linkedin.svg';
 import Github from '@/assets/github.svg';
+import Docker from '@/assets/docker.svg';
 
 export const Icons = {
+    DOCKER: Docker,
     EXPRESS: Express,
     NODEJS: NodeJS,
     POSTGRESQL: PostgreSQL,

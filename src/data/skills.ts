@@ -37,6 +37,12 @@ export const SkillsData: SkillsData = {
                 { name: Technology.PRISMA, icon: Icons.PRISMA },
                 { name: Technology.PYTHON, icon: Icons.PYTHON }
             ]
+        },
+        {
+            title: "Cloud",
+            technologies: [
+                {name: Technology.DOCKER, icon: Icons.DOCKER}
+            ]
         }
     ]
 }
