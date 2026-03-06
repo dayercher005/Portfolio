@@ -1,3 +1,5 @@
+import Docker from '@/assets/docker.svg';
+import Electron from '@/assets/electron.svg'
 import Express from '@/assets/express.svg';
 import NodeJS from '@/assets/nodejs.svg';
 import PostgreSQL from '@/assets/postgresql.svg';
@@ -9,10 +11,11 @@ import Typescript from '@/assets/typescript.svg';
 import NTU from '@/assets/ntu.webp';
 import Linkedin from '@/assets/linkedin.svg';
 import Github from '@/assets/github.svg';
-import Docker from '@/assets/docker.svg';
+
 
 export const Icons = {
     DOCKER: Docker,
+    ELECTRON: Electron,
     EXPRESS: Express,
     NODEJS: NodeJS,
     POSTGRESQL: PostgreSQL,
