@@ -22,6 +22,7 @@ export const SkillsNavbar: FC<SkillsNavbarProps> = ({
                         variant="outline"
                         size="lg"
                         onClick={() => setSectionIndex(index)}
+                        className="hover:cursor-pointer"
                     >
                         {section.title}
                     </Button>

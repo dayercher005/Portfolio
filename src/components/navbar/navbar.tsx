@@ -18,7 +18,7 @@ export const Navbar: FC = () => {
 
             <div className="flex items-center justify-center gap-2.5">
                 <Button 
-                className="border-none bg-zinc-600" 
+                className="border-none bg-zinc-600 hover:cursor-pointer" 
                 variant="outline" 
                 size="icon"
                 >
@@ -27,14 +27,18 @@ export const Navbar: FC = () => {
                     </a>
                 </Button>
                 <Button
-                className="border-none bg-zinc-600"
+                className="border-none bg-zinc-600 hover:cursor-pointer"
                 variant="outline" 
                 size="icon">
                     <a target="_blank" href={linkedin}>
                         <img src={Icons.LINKEDIN} />
                     </a>
                 </Button>
-                <Button variant="outline" size="lg">
+                <Button 
+                variant="outline" 
+                size="lg"
+                className="hover:cursor-pointer"
+                >
                     <a href={resume}>
                         Resume
                     </a>

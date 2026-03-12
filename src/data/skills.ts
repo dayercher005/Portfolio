@@ -24,7 +24,8 @@ export const SkillsData: SkillsData = {
             technologies: [
                 { name: Technology.TYPESCRIPT, icon: Icons.TYPESCRIPT },
                 { name: Technology.TAILWIND, icon: Icons.TAILWIND },
-                { name: Technology.REACT, icon: Icons.REACT }
+                { name: Technology.REACT, icon: Icons.REACT },
+                { name: Technology.ELECTRON, icon: Icons.ELECTRON }
             ]
         },
         {

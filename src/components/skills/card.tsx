@@ -17,7 +17,7 @@ export const SkillCard: FC<SkillCardProps> = ({
         <RiseUp>
         <div
             key={key}
-            className="bg-skillCard rounded-2xl items-center gap-2.5 flex sm:p-4 p-2.5"
+            className="bg-[linear-gradient(340deg,hsla(0,40%,100%,.05),hsla(0,0%,100%,.1))] rounded-2xl items-center gap-2.5 flex sm:p-4 p-2.5"
         >
             <img 
                 src={icon}
