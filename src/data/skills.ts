@@ -22,9 +22,8 @@ export const SkillsData: SkillsData = {
         {
             title: "Frontend",
             technologies: [
-                { name: Technology.TYPESCRIPT, icon: Icons.TYPESCRIPT },
-                { name: Technology.TAILWIND, icon: Icons.TAILWIND },
                 { name: Technology.REACT, icon: Icons.REACT },
+                { name: Technology.TAILWIND, icon: Icons.TAILWIND },
                 { name: Technology.ELECTRON, icon: Icons.ELECTRON }
             ]
         },
@@ -32,11 +31,10 @@ export const SkillsData: SkillsData = {
             title: "Backend",
             technologies: [
                 { name: Technology.NODEJS, icon: Icons.NODEJS },
-                { name: Technology.TYPESCRIPT, icon: Icons.TYPESCRIPT },
                 { name: Technology.EXPRESS, icon: Icons.EXPRESS },
+                { name: Technology.DJANGO, icon: Icons.DJANGO },
                 { name: Technology.POSTGRESQL, icon: Icons.POSTGRESQL },
                 { name: Technology.PRISMA, icon: Icons.PRISMA },
-                { name: Technology.PYTHON, icon: Icons.PYTHON }
             ]
         },
         {
