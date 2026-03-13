@@ -31,7 +31,7 @@ export const Hero: FC = () => {
             <RiseUp
                 delay={delay * 2}
             >
-                <div className="mt-7 px-2 mx-auto md:max-w-2xl max-w-md">
+                <div className="mt-7 px-2 max-sm:text-center mx-auto md:max-w-2xl max-w-md">
                     {description.map((text, index) =>
                         <p
                         className="font-medium text-md py-2"
