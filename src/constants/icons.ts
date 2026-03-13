@@ -1,4 +1,5 @@
 import Docker from '@/assets/docker.svg';
+import Django from '@/assets/django.svg';
 import Electron from '@/assets/electron.svg'
 import Express from '@/assets/express.svg';
 import NodeJS from '@/assets/nodejs.svg';
@@ -15,6 +16,7 @@ import Github from '@/assets/github.svg';
 
 export const Icons = {
     DOCKER: Docker,
+    DJANGO: Django,
     ELECTRON: Electron,
     EXPRESS: Express,
     NODEJS: NodeJS,

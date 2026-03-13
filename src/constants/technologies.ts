@@ -1,5 +1,6 @@
 export const Technology = {
     DOCKER: "Docker",
+    DJANGO: "Django",
     ELECTRON: "Electron",
     EXPRESS: "Express.js",
     NODEJS: "Node.js",
