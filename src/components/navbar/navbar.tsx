@@ -14,7 +14,7 @@ export const Navbar: FC = () => {
 
     return(
         <div className="sm:flex justify-between my-6 mx-auto md:max-w-2xl max-w-sm">
-            <h1 className="md:text-2xl text-center text-lg font-semibold my-5">{title}</h1>
+            <h1 className="md:text-3xl text-center text-lg font-semibold my-5">{title}</h1>
 
             <div className="flex items-center justify-center gap-2.5">
                 <Button 

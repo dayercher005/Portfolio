@@ -1,6 +1,5 @@
 import type { FC } from 'react';
 import { EducationData } from '@/data/education.ts';
-import { Separator } from '@/components/ui/separator.tsx';
 import { RiseUp } from '@/components/animations/riseUp.tsx';
 
 export const Education: FC = () => {
@@ -47,11 +46,7 @@ export const Education: FC = () => {
                         </div>
                     )}      
                 </div>
-
             </RiseUp>
-
-            <Separator />
-
         </div>
     )
 }
