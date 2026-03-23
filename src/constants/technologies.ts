@@ -8,6 +8,7 @@ export const Technology = {
     PRISMA: "Prisma",
     PYTHON: "Python",
     REACT: "React",
+    REACT_QUERY: "React Query",
     TAILWIND: "Tailwind",
     TYPESCRIPT: "Typescript",
 } as const
