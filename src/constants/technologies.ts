@@ -3,6 +3,7 @@ export const Technology = {
     DJANGO: "Django",
     ELECTRON: "Electron",
     EXPRESS: "Express.js",
+    MUI: "Material UI",
     NODEJS: "Node.js",
     POSTGRESQL: "PostgreSQL",
     PRISMA: "Prisma",
