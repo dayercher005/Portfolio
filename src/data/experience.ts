@@ -18,18 +18,18 @@ export const ExperienceData = {
     title: "Experience",
     experiences: [
             {
-                position: "Software Engineer Intern",
+                position: "Software Developer Intern",
                 organization: "Military startup unit focusing on digital transformation and innovation",
                 logo: Icons.RAID,
                 startDate: "March 2026",
                 endDate: "July 2026",
                 description: [
-                    "Working on third-party API Integration into web application",
+                    "Worked on integrating 3D geospatial visualization using CesiumJS with Google Maps API for web applications.",
                     ""
                 ],
                 technologies: [
                     { name: Technology.REACT, icon: Icons.REACT },
-                    { name: Technology.REACT_QUERY, icon: Icons.REACT_QUERY }
+                    { name: Technology.MUI, icon: Icons.MUI}
             ]
         }
     ]
