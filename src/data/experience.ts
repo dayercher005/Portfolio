@@ -24,8 +24,7 @@ export const ExperienceData = {
                 startDate: "March 2026",
                 endDate: "July 2026",
                 description: [
-                    "Worked on integrating 3D geospatial visualization using CesiumJS with Google Maps API for web applications.",
-                    ""
+                    "Working on integrating 3D geospatial visualization using CesiumJS with Google Maps API.",
                 ],
                 technologies: [
                     { name: Technology.REACT, icon: Icons.REACT },
