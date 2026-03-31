@@ -9,7 +9,8 @@ export const Navbar: FC = () => {
         title,
         github,
         linkedin,
-        resume
+        resumePath,
+        resumeName
     } = NavbarData
 
     return(
@@ -39,7 +40,7 @@ export const Navbar: FC = () => {
                 size="lg"
                 className="hover:cursor-pointer"
                 >
-                    <a href={resume}>
+                    <a href={resumePath} download={resumeName}>
                         Resume
                     </a>
                 </Button>
