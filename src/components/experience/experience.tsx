@@ -15,7 +15,7 @@ export const Experience: FC = () => {
 
     return(
         <div className="md:max-w-2xl max-w-md max-sm:w-xs mx-auto mt-25 mb-15">
-            <h1 className="text-2xl md:text-4xl max-md:text-center font-bold ">{title}</h1>
+            <h1 className="text-3xl md:text-4xl max-md:text-center font-bold ">{title}</h1>
 
             <RiseUp
                 delay={150}
@@ -26,16 +26,16 @@ export const Experience: FC = () => {
                     {experiences.map((experience)=> 
                         <div className="border-b-3 last:border-none py-5">
                             <img 
-                                className="size-15"
+                                className="size-15 max-md:mx-auto"
                                 src={experience.logo}
                             />
                             <h1
-                                className="font-medium text-md italic text-zinc-300 py-2"
+                                className="font-medium text-md max-md:text-center italic text-zinc-300 py-2"
                             >
                                 {experience.organization}
                             </h1>
                             <div 
-                            className="md:flex justify-between py-3.5">
+                            className="md:flex justify-between max-md:text-center py-3.5">
                                 <h1
                                     className="font-semibold text-lg"
                                 >

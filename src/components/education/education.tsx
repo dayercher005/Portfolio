@@ -13,7 +13,7 @@ export const Education: FC = () => {
 
     return(
         <div className="md:max-w-2xl max-w-md max-sm:w-xs mx-auto mt-25 mb-15">
-            <h1 className="text-2xl md:text-4xl max-md:text-center font-bold ">{title}</h1>
+            <h1 className="text-3xl md:text-4xl max-md:text-center font-bold ">{title}</h1>
 
             <RiseUp
                 delay={delay}
@@ -28,7 +28,7 @@ export const Education: FC = () => {
                         >
                             <img 
                                 src={education.icon}
-                                className="w-45 h-16 max-md:mx-auto"
+                                className="w-45 h-16 max-md:mx-auto max-md:mb-10"
                             />
 
                             <div className="text-center">
