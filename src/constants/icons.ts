@@ -2,6 +2,7 @@ import Docker from '@/assets/icons/docker.svg';
 import Django from '@/assets/icons/django.svg';
 import Electron from '@/assets/icons/electron.svg'
 import Express from '@/assets/icons/express.svg';
+import FastAPI from '@/assets/icons/fastapi.svg';
 import MUI from '@/assets/icons/mui.svg';
 import NodeJS from '@/assets/icons/nodejs.svg';
 import PostgreSQL from '@/assets/icons/postgresql.svg';
@@ -22,6 +23,7 @@ export const Icons = {
     DJANGO: Django,
     ELECTRON: Electron,
     EXPRESS: Express,
+    FASTAPI: FastAPI,
     MUI: MUI,
     NODEJS: NodeJS,
     POSTGRESQL: PostgreSQL,
