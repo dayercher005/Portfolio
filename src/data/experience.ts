@@ -11,25 +11,28 @@ interface ExperienceListData {
     organization: string,
     startDate: string,
     endDate: string,
-    description: string[]
+    description: string[],
+    status: boolean
 }
 
 export const ExperienceData = {
     title: "Experience",
     experiences: [
             {
-                position: "Software Developer Intern",
+                position: "Software Engineering Intern",
                 organization: "Military startup unit focusing on digital transformation and innovation",
                 logo: Icons.RAID,
                 startDate: "March 2026",
                 endDate: "July 2026",
                 description: [
-                    "Working on integrating 3D geospatial visualization into frontend using CesiumJS with Google Maps API.",
+                    "Worked on integrating 3D geospatial visualization into frontend using CesiumJS.",
+                    "Developing reusable custom components using React and Material UI (MUI)."
                 ],
                 technologies: [
                     { name: Technology.REACT, icon: Icons.REACT },
                     { name: Technology.MUI, icon: Icons.MUI}
-            ]
+                ],
+                status: true
         }
     ]
     

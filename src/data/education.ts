@@ -11,7 +11,7 @@ interface EducationData {
     course: string
     startDate: string
     endDate: string
-    status?: string
+    status: boolean
 }
 
 export const EducationData: EducationListData = {
@@ -22,8 +22,8 @@ export const EducationData: EducationListData = {
             icon: Icons.NTU,
             course: "Bachelor of Computing (Hons) in Computer Science",
             startDate: "July 2026",
-            endDate: "Present",
-            status: "Current"
+            endDate: "July 2030",
+            status: false
         }
     ]
 }
