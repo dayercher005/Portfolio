@@ -1,6 +1,7 @@
 import type { FC } from 'react'
 import { ExperienceData } from '@/data/experience.ts'
 import { RiseUp } from '@/components/animations/riseUp.tsx';
+import { Badge } from '@/components/ui/badge';
 import { HoverCard,
          HoverCardContent,
          HoverCardTrigger
@@ -36,11 +37,22 @@ export const Experience: FC = () => {
                             </h1>
                             <div 
                             className="md:flex justify-between max-md:text-center py-3.5">
-                                <h1
-                                    className="font-semibold text-lg"
-                                >
-                                    {experience.position}
-                                </h1>
+                                <div className="md:flex gap-1.5">
+                                    <h1
+                                        className="font-semibold text-lg"
+                                    >
+                                        {experience.position}
+                                    </h1>
+                                    { experience.status && 
+                                        <Badge variant="secondary" className="bg-green-950 text-green-300">
+                                            <span className="relative flex size-2">
+                                                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
+                                                <span className="relative inline-flex size-2 rounded-full bg-green-500"></span>
+                                            </span>
+                                            Present
+                                        </Badge>
+                                    }
+                                </div>
                                 <h1
                                     className="font-semibold text-md"
                                 >
