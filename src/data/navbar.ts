@@ -10,6 +10,6 @@ export const NavbarData = {
     title: "Dayer Cher",
     github: "https://github.com/dayercher005",
     linkedin: "https://www.linkedin.com/in/dayer-cher-9a9a14231/",
-    resumePath: "./src/assets/resume/resume.pdf",
+    resumePath: "https://drive.google.com/file/d/1ukuVCjl65Bj0vtt0ez7fhNKwYSCLsxvK/view?usp=drive_link",
     resumeName: "resume.pdf"
 }
