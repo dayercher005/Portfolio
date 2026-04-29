@@ -19,7 +19,7 @@ export const Education: FC = () => {
                 delay={delay}
             >
                 <div
-                    className="py-10 mx-1.5"
+                    className="py-10 mx-1"
                 >
                     {educations.map((education, index) => 
                         <div
@@ -28,12 +28,12 @@ export const Education: FC = () => {
                         >
                             <img 
                                 src={education.icon}
-                                className="w-45 h-16 max-md:mx-auto max-md:mb-10"
+                                className="h-35 max-md:mx-auto"
                             />
 
                             <div className="text-center">
                                 <p
-                                    className="font-medium text-md md:max-w-75 max-md:mx-auto my-1.5"
+                                    className="font-medium text-md md:max-w-50 max-md:mx-auto my-1.5"
                                 >
                                     {education.course}
                                 </p>
