@@ -13,7 +13,7 @@ import React from '@/assets/icons/react.svg';
 import ReactQuery from '@/assets/icons/react_query.svg'
 import Tailwind from '@/assets/icons/tailwind.svg';
 import Typescript from '@/assets/icons/typescript.svg';
-import NTU from '@/assets/logos/ntu.webp';
+import NUS from '@/assets/logos/nus.svg';
 import Linkedin from '@/assets/icons/linkedin.svg';
 import Github from '@/assets/icons/github.svg';
 
@@ -34,7 +34,7 @@ export const Icons = {
     REACT_QUERY: ReactQuery,
     TAILWIND: Tailwind,
     TYPESCRIPT: Typescript,
-    NTU: NTU,
+    NUS: NUS,
     LINKEDIN: Linkedin,
     GITHUB: Github
 } as const

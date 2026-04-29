@@ -18,9 +18,9 @@ export const EducationData: EducationListData = {
     title: "Education",
     educations: [
         {
-            school: "Nanyang Technological University (NTU)",
-            icon: Icons.NTU,
-            course: "Bachelor of Computing (Hons) in Computer Science",
+            school: "National University of Singapore (NTU)",
+            icon: Icons.NUS,
+            course: "Bachelor of Computing, Computer Science",
             startDate: "July 2026",
             endDate: "July 2030",
             status: false
