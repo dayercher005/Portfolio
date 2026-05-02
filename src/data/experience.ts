@@ -9,9 +9,10 @@ interface ExperienceData {
 interface ExperienceListData {
     position: string, 
     organization: string,
+    description: string,
     startDate: string,
     endDate: string,
-    description: string[],
+    scope: string[],
     status: boolean
 }
 
@@ -20,11 +21,12 @@ export const ExperienceData = {
     experiences: [
             {
                 position: "Software Developer Intern",
-                organization: "Military startup unit focusing on digital transformation and innovation",
+                organization: "RSAF Agile Innovation Digital (RAiD)",
+                description: 'Military startup unit focusing on digital transformation and innovation',
                 logo: Icons.RAID,
                 startDate: "March 2026",
                 endDate: "July 2026",
-                description: [
+                scope: [
                     "Working on integrating 3D geospatial visualization into frontend using CesiumJS.",
                     "Developed reusable custom components for frontend using React and Material UI (MUI).",
                     "Enhancing application security through shifting third party API integrations into server-side logic."

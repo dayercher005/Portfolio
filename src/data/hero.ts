@@ -12,9 +12,9 @@ export const HeroData: HeroData = {
     firstName: "Dayer",
     lastName: "Cher",
     description: [
-        "My first exposure to software development was with The Odin Project(TOP) curriculum which got me started with Web Development. This sparked my passion in building applications with open source.",
-        "Currently I'm a prospective Y1 Computer Science Major set to matriculate on July 2026!",
-        "During my free time, I'm either bouldering or playing chess."
+        "Hi there! I'm Dayer,an undergraduate at National University of Singapore (NUS) pursuing a degree in Computer Science.",
+        "Currently I'm honing my skills as a Software Development Intern at RSAF Agile Innovation Digital (RAiD) where I'm working on full stack development.",
+        "During my free time, I'm enjoy spending my weekends climbing in a bouldering gym!."
     ],
     linkedin: "https://www.linkedin.com/in/dayer-cher-9a9a14231/",
     github: "https://github.com/dayercher005",
