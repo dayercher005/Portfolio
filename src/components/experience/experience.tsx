@@ -26,15 +26,24 @@ export const Experience: FC = () => {
                 >
                     {experiences.map((experience)=> 
                         <div className="border-b-3 last:border-none py-5">
-                            <img 
-                                className="size-15 max-md:mx-auto"
-                                src={experience.logo}
-                            />
-                            <h1
-                                className="font-medium text-md max-md:text-center italic text-zinc-300 py-2"
-                            >
-                                {experience.organization}
-                            </h1>
+                            <div className="md:flex">
+                                <img 
+                                    className="size-15 max-md:mx-auto"
+                                    src={experience.logo}
+                                />
+                                <div>
+                                    <h1
+                                        className="font-bold text-xl max-md:text-lg max-md:text-center text-zinc-300 md:ml-2 md:p-1 max-md:py-2"
+                                    >
+                                        {experience.organization}
+                                    </h1>
+                                    <p
+                                        className="font-medium text-md max-md:text-sm max-md:text-center italic text-zinc-300 md:ml-2 max-md:py-2"
+                                    >
+                                        {experience.description}
+                                    </p>
+                                </div>
+                            </div>
                             <div 
                             className="md:flex justify-between max-md:text-center py-3.5">
                                 <div className="md:flex gap-1.5">
@@ -63,11 +72,11 @@ export const Experience: FC = () => {
                             <ul
                                 className="list-disc pb-6.5"
                             >
-                                {experience.description.map((description) => 
+                                {experience.scope.map((scope) => 
                                     <li
                                         className="ml-5 pb-1.5 font-medium italic"
                                     >
-                                        {description}
+                                        {scope}
                                     </li>
                                 )}
                             </ul>
