@@ -33,6 +33,7 @@ export const ExperienceData = {
                     { name: Technology.REACT, icon: Icons.REACT },
                     { name: Technology.MUI, icon: Icons.MUI },
                     { name: Technology.EXPRESS, icon: Icons.EXPRESS },
+                    { name: Technology.NODEJS, icon: Icons.NODEJS }
                 ],
                 status: true
         }
