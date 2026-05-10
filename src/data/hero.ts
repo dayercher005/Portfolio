@@ -12,7 +12,7 @@ export const HeroData: HeroData = {
     firstName: "Dayer",
     lastName: "Cher",
     description: [
-        "Hi there! I'm Dayer,an undergraduate at National University of Singapore (NUS) pursuing a degree in Computer Science.",
+        "Hi, I'm Dayer. I'm a Computer Science undergraduate at studying at National University of Singapore (NUS).",
         "Currently I'm honing my skills as a Software Development Intern at RSAF Agile Innovation Digital (RAiD) where I'm working on full stack development.",
         "During my free time, I'm enjoy spending my weekends climbing in a bouldering gym!."
     ],
@@ -20,7 +20,7 @@ export const HeroData: HeroData = {
     github: "https://github.com/dayercher005",
     resume: "",
     professions: [
-        "Computer Science Student",
-        "Software Developer"
+        "Undergraduate",
+        "Software Developer",
     ]
 }

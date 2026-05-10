@@ -22,7 +22,7 @@ export const Hero: FC = () => {
                     delay={delay}
                 >
                     <FlipUp 
-                        className="text-xl md:text-2xl font-semibold text-indigo-400"
+                        className="text-md md:text-2xl font-bold text-indigo-400"
                         words={professions}
                     />
                 </RiseUp>
