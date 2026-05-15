@@ -4,6 +4,8 @@ export const Technology = {
     ELECTRON: "Electron",
     EXPRESS: "Express.js",
     FASTAPI: "FastAPI",
+    JAVA: "Java",
+    JAVASCRIPT: "Javascript",
     MUI: "Material UI",
     NODEJS: "Node.js",
     POSTGRESQL: "PostgreSQL",

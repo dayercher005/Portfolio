@@ -3,6 +3,8 @@ import Django from '@/assets/icons/django.svg';
 import Electron from '@/assets/icons/electron.svg'
 import Express from '@/assets/icons/express.svg';
 import FastAPI from '@/assets/icons/fastapi.svg';
+import Java from '@/assets/icons/java.svg';
+import Javascript from '@/assets/icons/javascript.svg';
 import MUI from '@/assets/icons/mui.svg';
 import NodeJS from '@/assets/icons/nodejs.svg';
 import PostgreSQL from '@/assets/icons/postgresql.svg';
@@ -24,6 +26,8 @@ export const Icons = {
     ELECTRON: Electron,
     EXPRESS: Express,
     FASTAPI: FastAPI,
+    JAVA: Java,
+    JAVASCRIPT: Javascript,
     MUI: MUI,
     NODEJS: NodeJS,
     POSTGRESQL: PostgreSQL,
