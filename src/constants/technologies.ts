@@ -13,6 +13,7 @@ export const Technology = {
     PYTHON: "Python",
     REACT: "React",
     REACT_QUERY: "React Query",
+    SPRING: "Spring",
     TAILWIND: "Tailwind",
     TYPESCRIPT: "Typescript",
 } as const

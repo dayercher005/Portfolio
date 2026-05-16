@@ -13,6 +13,7 @@ import Python from '@/assets/icons/python.svg';
 import RAiD from '@/assets/logos/raid.svg';
 import React from '@/assets/icons/react.svg';
 import ReactQuery from '@/assets/icons/react_query.svg'
+import Spring from '@/assets/icons/spring.svg'
 import Tailwind from '@/assets/icons/tailwind.svg';
 import Typescript from '@/assets/icons/typescript.svg';
 import NUS from '@/assets/logos/nus.svg';
@@ -36,6 +37,7 @@ export const Icons = {
     RAID: RAiD,
     REACT: React,
     REACT_QUERY: ReactQuery,
+    SPRING: Spring,
     TAILWIND: Tailwind,
     TYPESCRIPT: Typescript,
     NUS: NUS,
