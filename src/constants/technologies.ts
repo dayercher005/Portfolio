@@ -7,6 +7,7 @@ export const Technology = {
     JAVA: "Java",
     JAVASCRIPT: "Javascript",
     MUI: "Material UI",
+    NEXTJS: "Next.js",
     NODEJS: "Node.js",
     POSTGRESQL: "PostgreSQL",
     PRISMA: "Prisma",

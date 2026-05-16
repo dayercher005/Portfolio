@@ -6,6 +6,7 @@ import FastAPI from '@/assets/icons/fastapi.svg';
 import Java from '@/assets/icons/java.svg';
 import Javascript from '@/assets/icons/javascript.svg';
 import MUI from '@/assets/icons/mui.svg';
+import NextJS from '@/assets/icons/nextjs.svg';
 import NodeJS from '@/assets/icons/nodejs.svg';
 import PostgreSQL from '@/assets/icons/postgresql.svg';
 import Prisma from '@/assets/icons/prisma.svg';
@@ -30,6 +31,7 @@ export const Icons = {
     JAVA: Java,
     JAVASCRIPT: Javascript,
     MUI: MUI,
+    NEXTJS: NextJS,
     NODEJS: NodeJS,
     POSTGRESQL: PostgreSQL,
     PRISMA: Prisma,
