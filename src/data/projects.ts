@@ -1,6 +1,7 @@
 import { Technology } from '@/constants/technologies.ts';
 import { type TechnologyData } from '@/data/skills';
 import { Icons, type IconTypes } from '@/constants/icons.ts';
+import { Images } from '@/constants/images';
 
 interface ProjectData {
     projectName: string,
@@ -26,7 +27,7 @@ export const ProjectsData = {
         {
             projectName: "Sprout",
             description: "Light-weight web application for Cryptocurrency Analysis.",
-            image: "../../../src/assets/images/sprout_preview.png",
+            image: Images.SPROUT_PREVIEW,
             technologies: [
                 { name: Technology.REACT, icon: Icons.REACT },
                 { name: Technology.NEXTJS, icon: Icons.NEXTJS },
