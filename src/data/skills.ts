@@ -11,7 +11,7 @@ export interface Section {
     technologies: TechnologyData[]
 }
 
-interface TechnologyData {
+export interface TechnologyData {
     name: TechnologyTypes,
     icon: IconTypes
 }

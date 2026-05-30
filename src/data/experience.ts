@@ -27,9 +27,8 @@ export const ExperienceData = {
                 startDate: "March 2026",
                 endDate: "July 2026",
                 scope: [
-                    "Working on integrating 3D geospatial visualization into frontend using CesiumJS.",
-                    "Developed reusable custom components for frontend using React and Material UI (MUI).",
-                    "Enhancing application security through shifting third party API integrations into server-side logic."
+                    "Integrated geospatial visualisation, developed and debugged reusable custom components for frontend",
+                    "Optimised and enhanced application security through shifting middleware and third party API integrations into server-side logic."
                 ],
                 technologies: [
                     { name: Technology.REACT, icon: Icons.REACT },
