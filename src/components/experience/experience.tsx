@@ -25,7 +25,7 @@ export const Experience: FC = () => {
                     className="py-10 mx-1.5"
                 >
                     {experiences.map((experience)=> 
-                        <div className="border-b-3 last:border-none py-5">
+                        <div className="border-b-3 last:border-none py-5" key={experience.organization}>
                             <div className="md:flex">
                                 <img 
                                     className="size-15 max-md:mx-auto"
