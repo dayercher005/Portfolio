@@ -1,11 +1,13 @@
 import Docker from '@/assets/icons/docker.svg';
 import Django from '@/assets/icons/django.svg';
-import Electron from '@/assets/icons/electron.svg'
+import Electron from '@/assets/icons/electron.svg';
 import Express from '@/assets/icons/express.svg';
+import ExternalLink from '@/assets/logos/external_link.svg';
 import FastAPI from '@/assets/icons/fastapi.svg';
 import Java from '@/assets/icons/java.svg';
 import Javascript from '@/assets/icons/javascript.svg';
 import MUI from '@/assets/icons/mui.svg';
+import NextAuth from '@/assets/icons/nextauth.png';
 import NextJS from '@/assets/icons/nextjs.svg';
 import NodeJS from '@/assets/icons/nodejs.svg';
 import PostgreSQL from '@/assets/icons/postgresql.svg';
@@ -27,10 +29,12 @@ export const Icons = {
     DJANGO: Django,
     ELECTRON: Electron,
     EXPRESS: Express,
+    EXTERNAL_LINK: ExternalLink,
     FASTAPI: FastAPI,
     JAVA: Java,
     JAVASCRIPT: Javascript,
     MUI: MUI,
+    NEXTAUTH: NextAuth,
     NEXTJS: NextJS,
     NODEJS: NodeJS,
     POSTGRESQL: PostgreSQL,
