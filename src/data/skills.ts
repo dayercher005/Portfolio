@@ -38,6 +38,7 @@ export const SkillsData: SkillsData = {
                 { name: Technology.FASTAPI, icon: Icons.FASTAPI },
                 { name: Technology.POSTGRESQL, icon: Icons.POSTGRESQL },
                 { name: Technology.PRISMA, icon: Icons.PRISMA },
+                { name: Technology.DRIZZLE, icon: Icons.DRIZZLE },
                 { name: Technology.DOCKER, icon: Icons.DOCKER }
             ]
         },

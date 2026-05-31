@@ -31,8 +31,9 @@ export const ProjectsData = {
             technologies: [
                 { name: Technology.REACT, icon: Icons.REACT },
                 { name: Technology.NEXTJS, icon: Icons.NEXTJS },
-                { name: Technology.NEXTAUTH, icon: Icons.NEXTAUTH },
+                { name: Technology.BETTER_AUTH, icon: Icons.BETTER_AUTH },
                 { name: Technology.POSTGRESQL, icon: Icons.POSTGRESQL },
+                { name: Technology.DRIZZLE, icon: Icons.DRIZZLE },
                 { name: Technology.MUI, icon: Icons.MUI },
             ],
             references: [

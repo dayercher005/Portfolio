@@ -35,7 +35,7 @@ export const Projects: FC = () => {
                             <CardDescription className="text-neutral-400">
                                 {project.description}
                             </CardDescription>
-                            <div className="flex gap-3 pt-4.5 pb-3">
+                            <div className="grid grid-cols-5 gap-2 pt-4.5 pb-3">
                                 {project.technologies.map(technology => 
                                     <HoverCard openDelay={10} closeDelay={75}>
                                         <HoverCardTrigger asChild>
