@@ -23,7 +23,13 @@ export const Projects: FC = () => {
                         />
                         <CardHeader className="">
                             <CardAction className="gap-5">
-                                <Badge variant="secondary" className="bg-amber-500">{project.status}</Badge>
+                                <Badge variant="secondary" className="bg-amber-900 text-amber-300 max-sm:my-1">
+                                    <span className="relative flex size-2">
+                                        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-amber-400 opacity-75"></span>
+                                        <span className="relative inline-flex size-2 rounded-full bg-amber-500"></span>
+                                    </span>
+                                    {project.status}
+                                </Badge>
                             </CardAction>
                             <CardTitle className="font-bold text-neutral-200 text-2xl max-lg:text-xl">{project.projectName}</CardTitle>
                             <CardDescription className="text-neutral-400">
