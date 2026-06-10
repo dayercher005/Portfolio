@@ -15,12 +15,14 @@ export const Projects: FC = () => {
             </div>
              <div className="max-lg:grid-cols-3">
                 {projects.map(project => 
-                    <Card className="relative mx-auto w-full max-w-sm px-1 py-2.5 bg-zinc-700 border-none">
-                        <img
-                            src={project.image}
-                            alt="Sprout Preview Image"
-                            className="relative p-2 rounded-xl z-20 aspect-video w-full object-cover"
-                        />
+                    <Card className="relative mx-auto max-w-sm px-1.5 py-2 bg-neutral-700 overflow-hidden transition-all duration-300 border-none group hover:bg-neutral-600">
+                        <div className="overflow-hidden rounded-xl max-h-100">
+                            <img
+                                src={project.image}
+                                alt="Sprout Preview Image"
+                                className="rounded-lg z-20 aspect-video h-full w-2xl object-cover transition-all duration-300 group-hover:scale-110"
+                            />
+                        </div>
                         <CardHeader className="">
                             <CardAction className="gap-5">
                                 <Badge variant="secondary" className="bg-amber-900 text-amber-300 max-sm:my-1">
@@ -35,12 +37,12 @@ export const Projects: FC = () => {
                             <CardDescription className="text-neutral-400">
                                 {project.description}
                             </CardDescription>
-                            <div className="grid grid-cols-5 gap-2 pt-4.5 pb-3">
+                            <div className="grid grid-cols-5 gap-x-1.5 gap-y-3 pt-4.5 pb-3">
                                 {project.technologies.map(technology => 
                                     <HoverCard openDelay={10} closeDelay={75}>
                                         <HoverCardTrigger asChild>
                                             <img
-                                                className="size-7 hover:scale-110 transition"
+                                                className="size-7.5 hover:scale-110 transition mb-1.5"
                                                 src={technology.icon}
                                             />
                                         </HoverCardTrigger>
@@ -63,6 +65,11 @@ export const Projects: FC = () => {
                                             />
                                             </a>
                                         </HoverCardTrigger>
+                                        <HoverCardContent>
+                                            <p className="font-medium text-xs">
+                                                {reference.label}
+                                            </p>
+                                        </HoverCardContent>
                                     </HoverCard>
                                 )}
                             </div>

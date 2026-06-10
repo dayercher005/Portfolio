@@ -37,8 +37,8 @@ export const ProjectsData = {
                 { name: Technology.MUI, icon: Icons.MUI },
             ],
             references: [
-                { link: "https://github.com/dayercher005/Sprout", icon: Icons.GITHUB },
-                { link: "https://sprout-jade.vercel.app", icon: Icons.EXTERNAL_LINK }
+                { link: "https://github.com/dayercher005/Sprout", icon: Icons.GITHUB, label: "Repository"  },
+                { link: "https://sprout-jade.vercel.app", icon: Icons.EXTERNAL_LINK, label: "Live Preview" }
             ],
             status: "In Progress"
         }
