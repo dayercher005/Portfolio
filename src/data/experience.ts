@@ -27,8 +27,10 @@ export const ExperienceData = {
                 startDate: "March 2026",
                 endDate: "July 2026",
                 scope: [
-                    "Integrated geospatial visualisation, developed and debugged reusable custom components for frontend",
-                    "Optimised and enhanced application security through shifting middleware and third party API integrations into server-side logic."
+                    "Developed and Integrated aerial photogrammetry with the use of external APIs into frontend architecture to improve cartography visualisation for users.",
+                    "Streamlined User experience by building custom interactive components and data displays with UI libraries, leading to improved data interpretability.",
+                    "Optimised and enhanced application security through shifting middleware and third party API integrations into server-side logic.",
+                    "Engineered a new visualisation tool that handles coordinate transformations by incorporating and implementing geometric and trigonometric calculations into core functionality."
                 ],
                 technologies: [
                     { name: Technology.REACT, icon: Icons.REACT },
